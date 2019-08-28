@@ -1,3 +1,6 @@
 (function(){
-    console.log('hi git');
+    var t = 'hi git';
+    t.split('').forEach(function(element) {
+       console.log(element);
+    });	
 })()
